@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Navigation">
+        <menu>
+            <item
+                android:id="@+id/draw_view"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Draw View" />
+            <item
+                android:id="@+id/morph_view"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Morph View" />
+        </menu>
+    </item>
+
+    <item android:title="Project">
+        <menu>
+            <item
+                android:id="@+id/new_project"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="New Project" />
+            <item
+                android:id="@+id/open_project"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Open Project" />
+            <item
+                android:id="@+id/save_project"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Save Project" />
+        </menu>
+    </item>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/import_left_image"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Import Left Image" />
+            <item
+                android:id="@+id/import_right_image"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Import Right Image" />
+        </menu>
+    </item>
+
+</menu>

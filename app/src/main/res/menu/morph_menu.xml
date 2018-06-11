@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_forward"
+        android:title="Forward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/play_reverse"
+        android:title="Reverse"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/morph"
+        android:title="Morph"
+        app:showAsAction="always" />
+</menu>
